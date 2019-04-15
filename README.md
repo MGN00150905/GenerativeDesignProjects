@@ -1,2 +1,4 @@
 # GenerativeDesignProjects
-A selection of p5.js sketches that I really took a liking to throughout my Creative Coding Module
+
+Each directory contains its own sketch.
+There will be a link to every sketch in each directories readMe file.
