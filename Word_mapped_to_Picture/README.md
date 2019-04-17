@@ -5,14 +5,14 @@
 
 [See code in action](https://mgn00150905.github.io/GenerativeDesignProjects/Word_mapped_to_Picture) (Ctrl/Cmnd Click to open in new tab)
 
-⋅⋅* The size of each letter depends on the grey values of the pixels in the image.
+* The size of each letter depends on the grey values of the pixels in the image.
 
-⋅⋅* The type that is being mapped to this image is a paragraph about the psychology of colour taken from an article on [medium](https://medium.com/building-creative-market/a-color-exercise-for-our-brands-illustration-db39af44f081).
+* The type that is being mapped to this image is a paragraph about the psychology of colour taken from an article on [medium](https://medium.com/building-creative-market/a-color-exercise-for-our-brands-illustration-db39af44f081).
 
-⋅⋅* Before a letter is drawn, its position co-ordinates is matched to the corrosponding position
+* Before a letter is drawn, its position co-ordinates is matched to the corrosponding position
 in the original image in pixel co-ordinates
 
-⋅⋅* You can save a .png image of the canvas by pressing the key 's'.
+* You can save a .png image of the canvas by pressing the key 's'.
 
 KEYS:
 
