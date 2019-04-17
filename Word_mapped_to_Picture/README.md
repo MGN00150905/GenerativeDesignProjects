@@ -4,6 +4,7 @@
 ### The pixels of the image control the configuration of the letters.
 
 [See code in action](https://mgn00150905.github.io/GenerativeDesignProjects/Word_mapped_to_Picture) (Ctrl/Cmnd Click to open in new tab)
+Please wait a few seconds while the pixels load.
 
 * The size of each letter depends on the grey values of the pixels in the image.
 
