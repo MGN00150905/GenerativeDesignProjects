@@ -105,15 +105,15 @@ function draw() {
 
 function keyReleased() {
   if (key == 's' || key == 'S') saveCanvas(gd.timestamp(), 'png');
-  // change render mode
+  // Change render mode
   if (key == '1') fontSame = !fontSame;
-  // change color mode to HSB
+  // Change color mode to HSB
   if (key == '2')   colorMode(HSB);
   // Reduce the size of the rows to make image more detailed
   if (key == '3')   spacing = 4;
   // Set the font size corrospond to the amount of colour in each pixel
   if (key == '4')   textSize(fontSize2);
-  //refresh canvas
+  // Refresh canvas
   if (key == '5')   location.reload();
   loop();
 }
