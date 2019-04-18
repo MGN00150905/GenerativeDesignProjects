@@ -12,7 +12,7 @@ function setup(){
 }
 
 function draw(){
-  background(255);
+  background(155, 30);
 
   //picks same set of random numbers each time
   randomSeed(100);
@@ -35,6 +35,7 @@ function draw(){
 
       rotate(angle);
 
+      fill(255)
       strokeWeight(.5);
       line(-tileWidth/2, tileWidth, tileWidth, -tileWidth/2);
 
