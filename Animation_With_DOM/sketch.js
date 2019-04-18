@@ -47,7 +47,7 @@ let opacity;
 //let img;
 
 function preload() {
-  font = loadFont("data/FreeSansBold.ttf");
+  font = loadFont('data/FreeSansBold.ttf');
   img = loadImage("assets/gradient.png");
   img2 = loadImage('data/candy.svg');
 
