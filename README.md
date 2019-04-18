@@ -1,7 +1,13 @@
 # GenerativeDesignProjects
 
-Each directory contains its own sketch.
-There will be a link to every sketch in each directories readMe file.
+##This is a generative design repo with many different examples using p5.js.
+
+* p5.js is a JavaScript library that starts with the original goal of Processing, to make coding accessible for artists, designers, educators, and beginners, and reinterprets this for today's web.
+
+* Each directory contains its own sketch.
+* There will be a link to every sketch in each directories readMe file.
+
+* Here are some examples(GIF) of the work that is found throughout this repository
 
 
 <kbd><img src="https://media.giphy.com/media/KzF8FX4cdVHWtt6glx/giphy.gif" /></kbd>
@@ -17,3 +23,5 @@ There will be a link to every sketch in each directories readMe file.
 
 
 <kbd><img src="https://media.giphy.com/media/PgLHg99A96tYau72ad/giphy.gif" /></kbd>
+
+<iframe src="https://giphy.com/embed/PgLHg99A96tYau72ad" width="480" height="476" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/PgLHg99A96tYau72ad">via GIPHY</a></p>
