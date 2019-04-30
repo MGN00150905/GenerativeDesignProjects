@@ -16,4 +16,4 @@
 
 * There are many other sliders such as __speed density and radius__ that you can change to make the perfect animation.
 
-![GitHub Logo](/controls.png)
+![GitHub Logo](controls.png)
