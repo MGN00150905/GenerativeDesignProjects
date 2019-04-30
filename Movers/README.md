@@ -1,6 +1,6 @@
 # Array of movers
 
-[See code in action](https://mgn00150905.github.io/GenerativeDesignProjects/Movers) (Ctrl/Cmnd Click to open in new tab)
+[See code in action](https://mgn00150905.github.io/GenerativeDesignProjects/Movers/2) (Ctrl/Cmnd Click to open in new tab)
 
 * In these sketches, a Mover class is created that creates mover objects.
 * The main script contains the two main functions, setup() & draw(). The draw function calls the objects built in function
