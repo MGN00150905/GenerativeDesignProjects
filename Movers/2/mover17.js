@@ -1,12 +1,7 @@
 function Mover(){
+	//Declaring variables
 	this.location = createVector(Math.floor(random(width)),Math.floor(random(height)));
-
 	this.velocity = createVector(3,4);
-
-
-
-	
-	//this.acceleration.mult(2);
 
 	this.r = random(255);
 	this.g = random(255);
@@ -21,6 +16,7 @@ function Mover(){
 		ellipse(this.location.x,this.location.y,random(this.radius),random(this.radius));
 	}
 
+//Updating each mover object to move relative to the mouse co-ordinates
 	this.update = function(){
 		var  mouse = createVector(mouseX,mouseY);
 		this.acceleration = p5.Vector.sub(mouse, this.location);
@@ -33,9 +29,9 @@ function Mover(){
 
 		this.location.add(this.velocity);
 
-		
 	}
 
+//Prisoning the mover objects to the canvas
 	this.checkEdges = function(){
 		if(this.location.x > width || this.location.x < 0){
 			this.velocity.x = this.velocity.x * -1

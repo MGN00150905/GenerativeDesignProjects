@@ -1,58 +1,56 @@
-# Random Walker with 4 Outcomes
+# Array of movers
 
-[See the Code in action](code.html)
+[See the Code in action]((https://mgn00150905.github.io/GenerativeDesignProjects/Movers/2))
 
-In this file we create a Walker class which creates walker objects. Each time the step function is called on this object it selects a random number and based on that it produces an outcomes. We also constrain the x and y value using the built in constrain() function.
-
-The main script contains the two main functions, setup() & draw(). The draw function calls the objects built in function
-
+* In these sketches, a Mover class is created that creates mover objects.
+* The main script contains the two main functions, setup() & draw(). The draw function calls the objects built in function
+* When drawing the mover objects, there are 3 different functions being called.
+- checkEdges() - to ensure each mover object does not leave the canvas
+- render() - To render what each object will look like
+- update() - Moving each object using acceleration and velocity
 ```js
-var walker;
+var movers = [];//array of movers
+var vol = 1000; //number of movers
+var text;
 
 function setup() {
-    createCanvas(320,640);
-    background(127);
-    walker = new Walker();
+    createCanvas(1400,600);
+
+
+    for(var i =0; i<vol;i++){
+        movers[i]=new Mover()
+    }
 }
 
 function draw() {
-    walker.render();
-    walker.step();
+    background(0);
+    String("Nature of code - Vectors",0,0);
+
+    for(var i=0;i<vol;i++){
+        movers[i].checkEdges();
+        movers[i].render();
+        movers[i].update();
+    }
+
 }
 ```
 
-Within the Walker class 2 variables are set up (x&y) and values declared for them. We then have two functions added to each object. The render function draws a dot at the designated x and y coordinate.
+* The following code is the update function taken from the mover class in mover17.js.
+* 'mouse' is made equal to the current mouse X and Y position. A built in p5 function called p5.vector.sub is used to subtract the current mouse position from the current location of each object.
+* This technique was used to attract each object to the mouse position as shown in the example. (After adding velocity)
 
 ```js
-function Walker() {
-    this.x = width/2;
-    this.y = height/2;
-    
-    this.render = function() {
-        stroke(0);
-        point(this.x,this.y);
-    }
-```
+//Updating each mover object to move relative to the mouse co-ordinates
+this.update = function(){
+  var  mouse = createVector(mouseX,mouseY);
+  this.acceleration = p5.Vector.sub(mouse, this.location);
 
-The step function creates a random number between 0 and 4 and then floors its. Based on that outcome a choice is made using if then else statement which will change the x or y coordinate. On the next draw the render function will update their position.
-    
-```js
-    this.step = function() {
-        var choice = floor(random(4));
-        if (choice === 0) {
-            this.x++;
-        } else if (choice === 1) {
-            this.x--;
-        } else if (choice === 2) {
-            this.y++;
-        } else {
-            this.y--;
-        }
-        
-        this.x = constrain(this.x,0,width);
-        this.y = constrain(this.y,0,height);
-    }
-    
+  this.acceleration.normalize();
+  this.acceleration.mult(0.2);
+
+  this.velocity.add(this.acceleration);
+  this.velocity.limit(10);
+
+  this.location.add(this.velocity);
 }
-
 ```
