@@ -25,7 +25,7 @@
 - [Shape1](https://mgn00150905.github.io/GenerativeDesignProjects/Shape_Mouse)
 - [Shape2](https://mgn00150905.github.io/GenerativeDesignProjects/Shape_Rotation)
 - [Shape3](https://mgn00150905.github.io/GenerativeDesignProjects/Shape_Rotation2)
-- [SVG](https://mgn00150905.github.io/GenerativeDesignProjects/Rotaion_With_SVG)
+- [SVG](https://mgn00150905.github.io/GenerativeDesignProjects/Rotation_With_SVG)
 - [Type Image](https://mgn00150905.github.io/GenerativeDesignProjects/Word_mapped_to_Picture)
 - [Data Visualization](https://mgn00150905.github.io/GenerativeDesignProjects/D3_Data_Visualization)
 
