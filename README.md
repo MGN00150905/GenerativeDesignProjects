@@ -9,6 +9,7 @@
 
 * Here are some examples(GIF) of the work that is found throughout this repository
 
+## Repos
 - [Animation](Animation_With_DOM/)
 - [Array of Movers](Movers/)
 - [Shape1](Shape_Mouse/)
@@ -16,6 +17,18 @@
 - [Shape3](Shape_Rotation2/)
 - [SVG](Rotaion_With_SVG/)
 - [Type Image](Word_mapped_to_Picture/)
+- [Data Visualization](D3_Data_Visualization/)
+
+## Sketches
+- [Animation](https://mgn00150905.github.io/GenerativeDesignProjects/Animation_With_DOM)
+- [Array of Movers](https://mgn00150905.github.io/GenerativeDesignProjects/Movers)
+- [Shape1](https://mgn00150905.github.io/GenerativeDesignProjects/Shape_Mouse)
+- [Shape2](https://mgn00150905.github.io/GenerativeDesignProjects/Shape_Rotation)
+- [Shape3](https://mgn00150905.github.io/GenerativeDesignProjects/Shape_Rotation2)
+- [SVG](https://mgn00150905.github.io/GenerativeDesignProjects/Rotaion_With_SVG)
+- [Type Image](https://mgn00150905.github.io/GenerativeDesignProjects/Word_mapped_to_Picture)
+- [Data Visualization](https://mgn00150905.github.io/GenerativeDesignProjects/D3_Data_Visualization)
+
 
 <kbd><img width="1200" src="https://media.giphy.com/media/KzF8FX4cdVHWtt6glx/giphy.gif" /></kbd>
 
