@@ -9,13 +9,13 @@
 
 * Here are some examples(GIF) of the work that is found throughout this repository
 
-* [Animation](Animation_With_DOM/)
-* [Array of Movers](Movers/)
-* [Shape1](Shape_Mouse/)
-* [Shape2](Shape_Rotation/)
-* [Shape3](Shape_Rotation2/)
-* [SVG](Rotaion_With_SVG/)
-* [Type Image](Word_mapped_to_Picture/)
+- [Animation](Animation_With_DOM/)
+- [Array of Movers](Movers/)
+- [Shape1](Shape_Mouse/)
+- [Shape2](Shape_Rotation/)
+- [Shape3](Shape_Rotation2/)
+- [SVG](Rotaion_With_SVG/)
+- [Type Image](Word_mapped_to_Picture/)
 
 <kbd><img width="1200" src="https://media.giphy.com/media/KzF8FX4cdVHWtt6glx/giphy.gif" /></kbd>
 
