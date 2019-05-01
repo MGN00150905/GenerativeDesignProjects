@@ -2,6 +2,8 @@
 
 ## This is a generative design repo containing a collection of p5.js sketches. Playing around with Colour, Shape and Type.
 
+### [View on GitHub Pages](https://mgn00150905.github.io/GenerativeDesignProjects)
+
 * p5.js is a JavaScript library that starts with the original goal of Processing, to make coding accessible for artists, designers, educators, and beginners, and reinterprets this for today's web.
 
 * Each directory contains its own sketch.
