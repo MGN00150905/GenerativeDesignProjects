@@ -1,0 +1,90 @@
+
+.axis--x path {
+  stroke:#ec008c;
+}
+
+.axis--x line{
+  stroke: #ec008c;
+}
+
+
+.axis--x text{
+  fill: white;
+  font-size: 12.5px;
+}
+.axis--y path {
+  stroke:#ec008c;
+}
+.axis--y line{
+  stroke: #ec008c;
+}
+
+
+.axis--y text{
+  fill: white;
+  font-size: 12.5px;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2.5px;
+}
+body{
+  background-color: #2f2f2f;
+
+}
+/*.svg-container {
+  height:100%;
+  width:100%;
+  max-height:15cm;
+  max-width:15cm;
+  margin: 0 auto;
+  background-image:url('yourSVG.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}*/
+.font{
+  color:white;
+  margin-left: 3%;
+  font-family: Verdana;
+  font-size: 260px;
+  text-align: center;
+}
+.grid line {
+  stroke: lightgrey;
+  stroke-opacity: 0.3;
+  shape-rendering: crispEdges;
+}
+
+.grid path {
+  stroke-width: 0;
+}
+
+.device{
+  font-weight: 0;
+  stroke: white;
+}
+#svgMain {
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+}
+
+#container {
+  background-color: #2f2f2f;
+}
+
+#container p{
+  font-size: 1em;
+  margin: 0;
+  text-align: center;
+  -webkit-transition: font-size .5s ease;
+  -moz-transition: font-size .5s ease;
+  -o-transition: font-size .5s ease;
+  transition: font-size .5s ease;
+}
+
+#container p:hover {
+  font-size: 2em;
+}
